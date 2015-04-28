@@ -1,6 +1,6 @@
 {
   "name": "foundation-essentials",
-  "version": "5.3.3",
+  "version": "1.0.0",
   "main": [
     "css/foundation.css",
     "js/foundation.js"
@@ -12,6 +12,13 @@
     "jquery.cookie": "~1.4.0",
     "jquery-placeholder": "~2.0.7"
   },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
     "jquery.autocomplete": "devbridge/jQuery-Autocomplete#1.2.9",
     "lodash": "~2.4.1"
